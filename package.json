@@ -1,0 +1,22 @@
+{
+  "name": "jest_testing_basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest",
+    "testwatch": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.1.0",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.17.1"
+  }
+}
