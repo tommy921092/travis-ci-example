@@ -1,4 +1,4 @@
-const functions = require('./functions');
+const functions = require('../functions');
 
 // beforeEach(() => initDatabase());
 // afterEach(() => closeDatabase());
@@ -55,7 +55,7 @@ test('Should be falsy', () => {
 test('User should be Brad Traversy object', () => {
   expect(functions.createUser()).toEqual({
     firstName: 'Brad',
-    lastName: 'Traversy'
+    lastName: 'Traversy',
   });
 });
 
